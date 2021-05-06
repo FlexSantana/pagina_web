@@ -30,7 +30,7 @@ html, body {
 }
 
 .navbar .menu {
-    grid-column: 4 / 7;
+    grid-column: 5 / 8;
     display: flex;
     justify-content: space-around;
 }
@@ -52,9 +52,9 @@ html, body {
     display: none;
 }
 
-.navbar .shoping {
+/*.navbar .shoping {
     grid-column: 8 / 9;
-}
+}*/
 
 /* SECTION MAIN */
 
@@ -155,13 +155,13 @@ html, body {
     grid-column: 1/2;
     text-align: center;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 /* SLIDER DE IMAGENES */
 .slider{
     grid-column: 4/8;
     overflow: hidden;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 .slider ul{
     display: flex;
@@ -222,6 +222,10 @@ html, body {
     margin-top: 20px;
     grid-column: 2/4;
 }
+.form_contact input:focus{
+    outline: none;
+
+}
 .contact .form_contact label{
     font-size: 20px;
     color: #EDCB54;
@@ -235,6 +239,7 @@ html, body {
     border-width: 0;
     background-color: #ddd;
     margin-bottom: 10px;
+    padding: 20px;
 }
 .contact .form_contact .email{
     margin-top: 10px;
@@ -244,6 +249,7 @@ html, body {
     border-width: 0;
     background-color: #ddd;
     margin-bottom: 10px;
+    padding: 20px;
 }
 
 .contact .form_contact .subject{
@@ -254,7 +260,7 @@ html, body {
     border-width: 0;
     background-color: #ddd;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 .contact .form_contact textarea.input{
     margin-top: 10px;
@@ -264,6 +270,7 @@ html, body {
     border-width: 0;
     background-color: #ddd;
     padding: 20px;
+    outline: none;
 }
 .contact .form_contact .boton{
     margin-top: 10px;

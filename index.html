@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani Rivero</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="#" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="img/logo.png" class="logo" alt="dani rivero logo">
+            <ul class="menu" id="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre mi</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="menu-bar" id="menu-bar">
+                <i class="fas fa-bars"></i>
+            </div>
+           <!--<div class="shoping">
+                <i class="fas fa-shopping-cart"></i>
+            </div>---> 
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="info-content">
+            <h3>Artist</h3>
+            <h1>Dani Rivero</h1>
+            <p>En la música todos los sentimientos vuelven a su estado puro y el mundo no es sino música hecha realidad</p>
+            <p><br>Arthur Schopenhauer<br>
+                Filósofo alemán (1788-1860) </p>
+            <!---<button class="btn">Read more</button>--->
+        </div>
+    </main>
+    <section class="about-me">
+        <h1>Sobre mí</h1>
+        <div class="guitar">
+            
+        </div>
+        <p>
+        En matemáticas, lógica, ciencias de la computación y disciplinas relacionadas, un algoritmo
+        (del latín, dixit algorithmus y este del griego arithmos, que significa «número», quizá también
+        con influencia del nombre del matemático persa Al-Juarismi)1​ es un conjunto de instrucciones o 
+        reglas definidas y no-ambiguas, ordenadas y finitas que permite, típicamente, solucionar un problema,
+        realizar un cómputo, procesar datos y llevar a cabo otras tareas o actividades.2​ Dados un estado inicial
+        y una entrada, siguiendo los pasos sucesivos se llega a un estado final y se obtiene una solución. Los
+        algoritmos son el objeto de estudio de la algoritmia.En la vida cotidiana, se emplean algoritmos frecuentemente
+        para resolver problemas determinados. Algunos ejemplos son los manuales de usuario, que muestran algoritmos para
+        usar un aparato, o las instrucciones que recibe un trabajador de su patrón. Algunos ejemplos en matemática son el
+        algoritmo de multiplicación, para calcular el producto, el algoritmo de la división para calcular el cociente de
+        dos números, el algoritmo de Euclides para obtener el máximo común divisor de dos enteros positivos, o el
+        método de Gauss para resolver un sistema de ecuaciones lineales.En términos de programación, un algoritmo es una
+        secuencia de pasos lógicos que permiten solucionar un problema.
+        </p>
+    </section>
+
+    <section class="blog">
+        <h1>Galeria</h1>
+    <div class="slider">
+        <ul>
+            <li><img src="img/juan.jpg" alt=""></li>
+            <li><img src="img/leo2.jpg" alt=""></li>
+            <li><img src="img/sam.jpg" alt=""></li>
+        </ul>
+    </div>
+        <p>Un concierto es una actuación musical en «que se ejecutan composiciones sueltas.
+            En el ámbito de la música clásica occidental también es la forma musical en la que
+            los materiales melódicos, rítmicos y armónicos se combinan en una composición, determinando
+            así la cualidad sonora global de una pieza. Designa la forma de relacionarse las diversas voces
+            que intervienen en una pieza musical, entendiendo como voces diversas líneas melódicas simultáneas,
+            sean vocales o instrumentales.Existe un momento, llamado cadenza o cadencia, al final de algunos 
+            movimientos, donde el solista toca sin acompañamiento, exponiendo su técnica. Durante el siglo XVIII 
+            esta parte frecuentemente no era escrita en la partitura, siendo improvisada o escrita por el instrumentista
+            de acuerdo a sus gustos y capacidades. Muchas de estas cadenzas fueron publicadas y aún hoy diferentes 
+            interpretaciones del mismo concierto pueden incluir las escritas por diferentes compositores.</p>
+    </section>
+
+    <section class="contact">
+        <h1>Contacto</h1>
+        <form method="post" class="form_contact">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" class="name"
+            placeholder=" Felix Santana"
+            autocomplete
+            required>
+    
+            <label for="email">Correo</label>
+            <input type="email" name="email" class="email" 
+            placeholder="ejemplo@gmail.com"
+            required>
+    
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" class="subject"
+            required>
+    
+            <label for="message">Mensaje</label>
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
+    
+            <input type="submit" value="enviar" class="boton"/>
+        </form>
+        <?php
+        include("correo.php");
+        ?>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.4601200978786!2d-69.97891805022752!3d18.46280607569698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561274c688161%3A0x4154bf7d3fe9d4!2sEben-ezer%20comunicaciones!5e0!3m2!1ses-419!2sdo!4v1619779156557!5m2!1ses-419!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="listen-online">
+            <i class="fas fa-headphones"></i>
+            <h2>Listen online</h2>
+        </div>
+        <div class="follow-me">
+            <h2>Follow me</h2>
+        </div>
+        <div class="social-network">
+            <a id="fc" class="fab fa-facebook-f" href="https://www.facebook.com" target="_blank"></a>
+            <a id="tw" class="fab fa-twitter" href="https://www.twitter.com" target="_blank"></a>
+            <a id="ig" class="fab fa-instagram" href="https://www.instagram.com" target="_blank"></a>
+        </div>
+
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>

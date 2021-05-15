@@ -28,7 +28,7 @@
     }
 
     .navbar .menu-toggle {
-        transform: translateX(70%);
+        transform: translateX(50%);
     }
 
 
@@ -49,12 +49,13 @@
     .about-me h1{
         font-size: 2em;
         grid-column: 1/3;
+        margin-right: 20px;
     }
 
     .about-me p{
         font-size: 1.3em;
         grid-column: 1/5;
-        margin-top: 0%;
+        margin-top: 10px;
         margin-left: 25px;
         margin-right: 25px;
         text-align:start;
@@ -89,60 +90,38 @@
         margin-right: 50px;
     }
     .slider img{
-        
         width: 100%;
-        height: 250px;
+        height: 350px;
         object-fit: cover;
     }
     
     
       /* SECTION CONTACT */
-      .contact{
+    .contact{
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         background-color: #181818;
     }
     .contact h1{
         font-size: 2em;
-        margin-left: 20px;
+        margin-left: 17px;
     }
     .contact .form_contact .name{
-        margin-top: 10px;
-        width: 290px;
-        height: 40px;
-        border-radius: 1rem;
-        border-width: 0;
-        background-color: #ddd;
-        margin-bottom: 10px;
+        width: 300px;
     }
     .contact .form_contact .email{
-        margin-top: 10px;
-        width: 290px;
-        height: 40px;
-        border-radius: 1rem;
-        border-width: 0;
-        background-color: #ddd;
-        margin-bottom: 10px;
+        width: 300px;
+    }
+    .contact .form_contact .phone{
+        width: 300px;
     }
     
     .contact .form_contact .subject{
-        margin-top: 10px;
-        width: 290px;
-        height: 40px;
-        border-radius: 1rem;
-        border-width: 0;
-        background-color: #ddd;
-        margin-bottom: 10px;
-        padding: 10px;
+        width: 300px;
     }
     .contact .form_contact textarea.input{
-        margin-top: 10px;
-        width: 290px;
+        width: 300px;
         height: 200px;
-        border-radius: 1rem;
-        border-width: 0;
-        background-color: #ddd;
-        padding: 20px;
     }
 
     .contact iframe{

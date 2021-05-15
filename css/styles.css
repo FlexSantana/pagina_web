@@ -251,6 +251,16 @@ html, body {
     margin-bottom: 10px;
     padding: 20px;
 }
+.contact .form_contact .phone{
+    margin-top: 10px;
+    width: 500px;
+    height: 40px;
+    border-radius: 1rem;
+    border-width: 0;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    padding: 20px;
+}
 
 .contact .form_contact .subject{
     margin-top: 10px;
